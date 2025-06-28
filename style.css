@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+input {
+  margin: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  min-width: 30px;
+  background-color: #fff;
+}
+
+.highlight {
+  font-size:larger;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #000000;
+}

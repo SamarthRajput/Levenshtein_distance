@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Levenshtein Distance Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Levenshtein Distance Calculator</h1>
+    <input type="text" id="str1" placeholder="Enter first string" />
+    <input type="text" id="str2" placeholder="Enter second string" />
+    <button onclick="calculate()">Calculate</button>
+    <p id="showStr1" class="bold"></p>
+    <p id="showStr2" class="bold"></p>
+    <p id="result" class="highlight"></p>
+    <div id="matrix"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
