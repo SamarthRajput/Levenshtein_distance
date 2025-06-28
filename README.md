@@ -2,10 +2,10 @@
 
 ## Features
 
-- Takes two strings as input
-- Calculates the Levenshtein Distance between them
-- Displays the complete DP matrix
-- Shows both the input strings and result
+- Accepts two strings as input
+- Computes the Levenshtein Distance between them
+- Displays the complete dynamic programming (DP) matrix
+- Outputs both the input strings and the final result
 
 ---
 
@@ -14,4 +14,3 @@
 - HTML5
 - CSS3
 - JavaScript
-
